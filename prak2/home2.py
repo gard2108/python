@@ -11,11 +11,17 @@
  
 # num =str(num)
 # spis = num.split(".")
+# res1 = int(spis[0])
+# sum1 = 0
+# sum = 0
+# while ( res1 != 0):
+#     sum1 = sum1 + res1 % 10
+#     res1 = res1 // 10
 # res = int(spis[1])
 # while ( res != 0):
 #     sum = sum + res % 10
 #     res = res // 10
-# print (sum)
+# print (sum + sum1)
 
 
 
