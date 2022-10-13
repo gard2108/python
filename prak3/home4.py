@@ -31,3 +31,8 @@ resN = str(spis[0] )
 for i in range(1, len(spis)):
     resN += str(spis[i] )
 print((f"число {res} в двоичной системме имеет вид {resN}"))
+
+
+spis = []
+spis.insert(0, 'num') - заполняет список с начала
+join.spis - склеивает элементы с нужнм разделительным элементом

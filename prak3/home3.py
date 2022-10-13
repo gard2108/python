@@ -5,14 +5,16 @@
 # Пример:
 # [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-# max = 0.00
-# min = 0.99
+max = 0.00
+min = 0.99
 
-# spis = [1.1, 1.2, 3.548, 5, 10.01, 345.07804]
-# for i in range (len(spis)):
-#     if (spis[i]-int(spis[i]) != 0 and spis[i]-int(spis[i]) > max):
-#         max = spis[i] - int(spis[i])
-#     elif(spis[i]-int(spis[i]) != 0 and spis[i]-int(spis[i]) < min):    
-#         min = spis[i] - int(spis[i])
-# res = max - min
-# print(round(res, 2))
+spis = [1.1, 1.2, 3.548, 5, 10.01, 345.07804]
+for i in range (len(spis)):
+    if (spis[i]-int(spis[i]) != 0 and spis[i]-int(spis[i]) > max):
+        max = spis[i] - int(spis[i])
+    elif(spis[i]-int(spis[i]) != 0 and spis[i]-int(spis[i]) < min):    
+        min = spis[i] - int(spis[i])
+res = max - min
+print(round(res, 2))
+
+использовать библиотеку 'decimal' для работы с плавающей точкой

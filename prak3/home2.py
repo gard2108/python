@@ -6,9 +6,12 @@
 # [2, 3, 5, 6] => [12, 15]
 
 
-spis = [2, 3, 5, 7, 9, 3]
+spis = [2, 3, 5, 9, 3]
 subSpis = []
 
-for i in range(int(len(spis)/2)):
+for i in range(int(len(spis)/2) + 1):
     subSpis.append(spis[i]*spis[-i - 1])
 print(subSpis)
+
+
+
