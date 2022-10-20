@@ -7,24 +7,21 @@
 
 
 
-from dis import findlabels
+
 from random import randint as rI
 
 dict = {}
-finalStr = ''
+final_str = ''
 stroka =''.join(list(map(str, [rI(0, 9) for i in range(20)])))
 print(stroka)
 
 
 for c in stroka:
-    if dict.get(c):
-        dict[c] = dict.get(c) + 1
-    else:
-        dict[c] = 1
+    if dict(c) = 
 
 for k,v in dict.items():
     if v == 1:
-        finalStr += str(k) + ' '
+        final_str += str(k) + ' '
 
-print(finalStr)
+print(final_str)
 
